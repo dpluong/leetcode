@@ -19,7 +19,6 @@ const twoSum = function twoSum(nums, target) {
   return 'no results found';
 };
 
-const target = 23;
-const nums = [12, 2, 5, 8, 11, 10];
-
-console.log(twoSum(nums, target));
+if (typeof exports !== 'undefined') {
+  module.exports = twoSum;
+}
